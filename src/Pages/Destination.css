@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../Pages//image/img7.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .Destination {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; 
+  }
+  
+  
+  .destination-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .destination-card {
+    width: 50%; 
+    flex-wrap: wrap;
+    margin: 10px; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .destination-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+  }
+  
+  
+  .destination-info {
+    margin-top: 10px;
+  }
+  
+  .destination-info h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  .destination-info p {
+    color: #555; 
+  }
+  
+  .destination-info p:last-child {
+    margin-top: 5px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #fff; 
+  }
+  
+  #citySelect {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .guide-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .guide-box {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .guide-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .guide-box img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .guide-box h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333; 
+  }
+  
+  .guide-box p {
+    color: #555; 
+  }
+  
+  .selected {
+    border: 2px solid #007bff; 
+  }
+  
+  .selected:hover {
+    border: 2px solid #007bff; 
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  
+  .guide-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .guide-content {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .guide-image {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .guide-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .introduction {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .introduction h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333; 
+  }
+  
+  .introduction p {
+    font-size: 18px;
+    color: #555;
+  }
+  
